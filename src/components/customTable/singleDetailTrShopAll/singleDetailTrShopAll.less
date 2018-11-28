@@ -1,0 +1,76 @@
+.tr{
+    display: flex;
+    min-height: 94px;
+    border: 1px solid#e8e8e8;
+    border-top:0;
+    .leftWrap{
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        .tdWrap{
+            border-bottom: 1px solid #e8e8e8;
+            &:last-child{
+                border-bottom:none;
+            }
+            .note{
+                height: 90px;
+                padding-left: 42px;
+                .leftTitle{
+                    color: #C4A56A;
+                    width: 86px;
+                    display: inline-block;
+                }
+                .wordDes{
+                    color: #666;
+                }
+            }
+        }
+        .td{
+            min-height: 94px;
+            border-right: 1px solid#e8e8e8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:last-child{
+                border-right:none;
+            }
+            .img {
+                display: block;
+                margin-right: 20px;
+                width: 80px;
+                height: 80px;   
+                background: #eee 
+            }
+        }
+        .tdSize{
+            flex-direction: column;
+            align-items: flex-start;
+            p{
+                margin-left: 16px;
+            }
+        }
+        .noBorderRigth{
+            border-right:none;
+        }
+    }
+    .rightWrap{
+        border-left: 1px solid#e8e8e8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .designWrap{
+        width: 107px;
+        text-align: center;
+        .designCont{
+            color: #B79044;
+            font-size: 13px;
+            padding-left: 10px;
+            padding-right: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}

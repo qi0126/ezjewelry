@@ -1,0 +1,163 @@
+#orderCenter {
+    padding: 40px 20px 40px 80px;
+    .sAudit {
+        .top {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+            border-bottom: 1px solid #eee;
+            .tit {
+                padding-bottom: 3px;
+                &::before {
+                    content: ' ';
+                    position: absolute;
+                    top: 38%;
+                    left: -20px;
+                    display: inline-block;
+                    background: red;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 6px;
+                }
+            }
+            .right {
+                
+            }
+        }
+
+    }
+
+    // common
+    .tit {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .searchBox {
+        display: flex;
+        .left {
+            box-sizing: border-box;
+            padding: 0 10px;
+            width: 234px;
+            height: 33px;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            margin-left: 30px;
+            width: 70px;
+            height: 33px;
+            background: #C4A56A;
+            border-radius: 5px;
+        }
+    }
+
+	// 订单列表
+    .tableWrap {
+        .paginaNumWrap {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            > span {
+                color: #999
+            }
+            .paginaNum {
+                display: flex;
+                > p {
+                    margin-left: 14px;
+                    padding: 2px 4px;
+                    border: 1px solid #C4A56A;
+                    &.on {
+                        color: #fff;
+                        background: #C4A56A;
+                    }
+                }
+            }
+        }
+        .table {
+            .tbTr {
+                display: flex;
+				align-items: center;
+                background: #EBEBEB;
+                padding: 0 24px;
+                height: 36px;
+                .tbTh {
+					display: flex;
+					justify-content: center;
+                }
+            }
+
+            .tableInfo {
+                margin-top: 24px;
+                border: 1px solid #e8e8e8;
+                .tr {
+                    display: flex;
+                    justify-content: space-between;
+                    &:nth-of-type(1) {
+                        background: #F1F1F1;
+                    }  
+                    .th {
+                        display: flex;
+                        align-items: center;
+                        height: 34px;     
+                    }
+                    .td {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						min-height: 94px;
+						border-left: 1px solid #e8e8e8;
+						&:nth-of-type(1) {
+							border-top: none;
+							border-left: none;
+						}
+					}
+					.itemTable {
+						width: 100%;
+						.itemTr {
+							display: flex;
+							align-items: center;
+							.itemTd {
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								min-height: 94px;
+								// border-top: 1px solid #e8e8e8;
+								border-left: 1px solid #e8e8e8;
+								.img {
+									display: block;
+									margin-right: 20px;
+									width: 80px;
+									height: 80px;   
+									background: #eee 
+								}
+							&:nth-of-type(1) {
+								border-left: none;
+								justify-content: flex-start;
+								padding-left: 24px;
+								box-sizing: border-box
+								}
+							}
+						}
+					}
+
+                }
+            } 
+
+        }
+    }
+}
+
+
+
+
+
+
+

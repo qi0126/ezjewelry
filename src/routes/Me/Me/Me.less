@@ -1,0 +1,134 @@
+.me {
+    padding: 40px 20px 165px 80px;
+    background: #fff;
+    .datumWrap {
+        .tit {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            &::before {
+                content: ' ';
+                position: absolute;
+                top: 38%;
+                left: -20px;
+                display: inline-block;
+                background: red;
+                width: 6px;
+                height: 6px;
+                border-radius: 6px;
+            }
+        }
+        .datum {
+            display: flex;
+            .datumRow {
+                display: flex;
+                align-items: center;
+                height: 80px;
+                width: 100%;
+                border-bottom: 1px solid #eee;
+                .name {
+                    flex: 1;
+                    font-size: 14px;
+                    color: #888;
+                }
+                .value {
+                    flex: 3;
+                }
+            }
+        } 
+    }
+    .cardWrap {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #eee;
+        .tit {
+            padding-top: 50px;
+            padding-bottom: 24px
+        }
+        .card {
+            width: 250px;
+            height: 150px;
+            background: #f5f5f5
+        }
+    }
+
+    .shopDatumWrap {
+        .tit {
+            padding-top: 50px;
+            padding-bottom: 20px; 
+        }
+
+    }
+
+    .imgCol {
+        border-bottom: 1px solid #EEEEEE;
+        .imgTop {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            min-height: 70px;
+            font-weight: bold;
+        }
+        .imgWrap {
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-left: 10px;
+            .imgItem {
+                margin-right: 33px;
+                margin-bottom: 20px;
+                > img {
+                    display: block;
+                    width: 280px;
+                    height: 175px;
+                    background: #eee;
+                }
+            }
+        }
+    }
+
+    .oneList {
+        display: flex;
+        justify-content: flex-start;
+        padding: 28px 0;
+        border-bottom: 1px solid #eee;
+        font-size: 14px;
+        .oLeft {
+            flex: 2;
+            // color: #999;
+        }
+        .oRight {
+            display: flex;
+            align-items: center;
+            flex: 10;
+            color: #666;
+            > img {
+                display: block;
+                width: 86px;
+                height: 86px;
+                background: #eee;
+            }
+            .orRight {
+                p:nth-of-type(1) {
+                    margin-bottom: 6px;
+                    color: #000;
+                    font-size: 16px;
+                }
+                p:nth-of-type(2) {
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    // common
+    .tit {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold
+    }
+
+}
+
+
+

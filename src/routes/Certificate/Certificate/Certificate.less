@@ -1,0 +1,157 @@
+.certificate {
+    padding: 40px 20px 165px 80px;
+    background: #fff;
+  .sAudit {
+      .top {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 10px;
+          margin-bottom: 35px;
+          border-bottom: 1px solid #eee;
+          .tit {
+              padding-bottom: 3px;
+              &::before {
+                  content: ' ';
+                  position: absolute;
+                  top: 38%;
+                  left: -20px;
+                  display: inline-block;
+                  background: red;
+                  width: 6px;
+                  height: 6px;
+                  border-radius: 6px;
+              }
+          }
+        //   .right {
+              
+        //   }
+      }
+      
+      .query {
+            display: flex;
+            min-height: 175px ;
+            .queryRight {
+                margin-left: 140px;
+                .rTit {
+                    color: #EF5555;
+                }
+                .rInfo {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 20px;
+                    > p {
+                        margin-right: 40px;
+                        line-height: 2;    
+                        &:hover {
+                            color: #D99C37;
+                            cursor: pointer;
+                        }        
+                    }
+                }
+            }
+        }
+
+
+  }
+
+  // common
+    .tit {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold
+    }
+
+    .twoWrap {
+        .twoTit {
+            font-size: 14px;
+            margin-bottom: 20px;
+            > span {
+                margin-left: 10px;
+                color: #999;
+                font-size: 12px;
+            }
+        }
+        .tList {
+            display: flex;
+            margin-bottom: 80px;
+            > p {
+            margin-right: 34px;
+                &.on {
+                    color: #EF5555
+                }
+            }
+        }
+        .tInfo {
+            display: flex;
+            align-items: center;
+            input {
+                width: 280px;   
+            }
+            button {
+                margin-left: 36px;
+            }
+            
+        }
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        .rowTit {
+            flex: 1;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .rowInfo {
+            flex: 5;
+            display: flex;
+            .riInfo {
+                display: flex;
+                margin-right: 46px;
+                > span {
+                    margin-right:20px;
+                }
+            }
+        }
+    }
+
+    .specWrap {
+        .specTit {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .stInfo {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .stList {
+            width: 46%;
+            display: flex;
+            margin-bottom: 10px;
+            .stlLeft {
+                flex: 1;
+                color: #8C8C8C;
+            }
+            .stlRight {
+                flex: 4;
+                color: #444
+            }
+        }
+    }
+
+    .rowHr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 1px;
+        background: #E2E2E2
+    }
+
+
+}
+
+.normal {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

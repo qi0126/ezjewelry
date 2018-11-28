@@ -1,0 +1,342 @@
+
+.proManage {
+	padding: 40px 20px 40px 70px;
+  background: #f8f8f8;
+	font-size:14px;
+  .noProImgDiv{
+    text-align: center;
+    margin-top: 50px;
+    font-size:14px;
+    line-height: 24px;
+  }
+  .noProImgDiv div{
+    margin-top: 15px;
+  }
+  
+	.tit {
+		position: relative;
+    font-size: 18px;
+    font-weight: bold;
+		.titSubName {
+			color: #666;
+			font-size: 14px;
+			margin-left: 20px;
+
+		}
+		&::before {
+			content: " ";
+			position: absolute;
+			top: 48%;
+			left: -20px;
+			display: inline-block;
+			background: red;
+			width: 6px;
+			height: 6px;
+			border-radius: 6px;
+		}
+	}
+	.hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-top: 1px solid #eee;
+		height: 3px;
+	}
+  .imgTopTxt{
+    float:left;
+    padding:8px;
+    color:#BA9D66;
+    font-size:14px;
+  }
+  .underFrame{
+    background-color: rgba(0, 0, 0, 0.26);
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-top: 125px;
+    height: 295px;
+    position: absolute;
+    text-align: center;
+    width: 230px;
+    margin-top: 34px;
+  }
+	.textRight {
+		text-align: right;
+	}
+	.imgTop{
+		padding:10px 10px 0 0;
+		height:34px;
+		text-align: right;
+	}
+	.marginLeft30{
+		margin-right: 30px;
+	}
+
+	.pro {
+		text-align: center;
+		background-color: #fff;
+    margin: 10px;
+    cursor: pointer;
+		width:230px;
+		height:330px;
+		img{
+			width:230px;
+			height:200px;
+		}
+		.proDisplay {
+			.proName {
+				color: #666666;
+				font-size: 14px;
+				line-height: 20px;
+        margin: 10px 0;
+        padding-left: 36px;
+        padding-right: 36px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+			}
+			.proPrice {
+				color: #000000;
+				font-size: 14px;
+				line-height: 20px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.datum {
+		display: flex;
+		.datumRow {
+			display: flex;
+			align-items: center;
+			height: 80px;
+			width: 100%;
+			border-bottom: 1px solid #ddd;
+			.name {
+				flex: 1;
+				color: #666;
+			}
+			.value {
+				flex: 3;
+			}
+		}
+  }
+  
+  .pagWrap{
+    float: right;
+  }
+
+}
+
+.txtCenter{
+  text-align: center;
+}
+.titTop{
+  border-bottom: #ddd solid 1px;
+  padding-bottom:5px;
+  font-size:20px;
+  color:#333;
+  .spanTitModi{
+    text-align: right;
+    color:#EF5555;
+    font-size:14px;
+    cursor: pointer;
+    float:right;
+  }
+}
+.titTopTwo{
+  border-bottom: #ddd solid 1px;
+  padding-bottom:20px;
+  font-size:14px;
+  color:#333;
+}
+.titTopThree{
+  padding-bottom:10px;
+  font-size:14px;
+  font-weight: bold;
+  color:#333;
+}
+
+label{
+  font-size: 14px;
+  font-weight: bold;
+}
+.ant-input{
+  font-size:14px;
+}
+.txtRed{
+  color:#EF5555;
+  font-size:12px;
+  cursor: pointer;
+}
+//弹出框样式
+.modalDiv {
+  padding:20px 50px;
+  .delSkuTxt{
+    font-size: 16px;
+  }
+  .mainImg {
+    width: 480px;
+    height: 480px;
+    border: 1px solid #b8d4fb;
+    margin: 30px;
+    margin-left: 0
+  }
+  .subImg {
+    width: 80px;
+    height: 80px;
+	}
+	.imgUpload {
+    width: 95px;
+    height: 75px;
+    background: #e6e6e6;
+    color: #c1d4e3;
+    text-align: center;
+  }
+  .imgSmall {
+    width: 82px;
+    height: 74px;
+  }
+  .imgDelBig {
+    position: relative;
+	}
+  .displayHide {
+    display: none;
+  }
+  .imgDel {
+    top: -11px;
+    background-color: #e5598a;
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 66px;
+    padding: 2px 4px;
+    position: absolute;
+  }
+  .imgDelTwo {
+    background-color: #e5598a;
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px 4px;
+    margin-left: 10px;
+  }
+  .titTxt {
+    margin-top: 85px;
+    font-size: 14px;
+    color:#333;
+  }
+  .tabOne {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    margin: 20px 0;
+    font-size: 14px;
+    table th {
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+    table td {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .tabTwo {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 20px 0;
+    .leftTxt {
+      color: #333333;
+      font-size: 14px;
+      height: 75px;
+      font-weight: bold;
+    }
+    .rightTxt {
+      color: #666666;
+      font-size: 15px;
+      height: 75px;
+      .rightNumSpan {
+        margin-right: 44px;
+      }
+    }
+  }
+  .tabThree {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    margin: 20px 0 0 70px;
+    font-size: 14px;
+    table th {
+      font-size: 14px;
+      text-align: center;
+      background-color: #fff;
+      border-bottom: 1px solid #e5e5e5;
+      font-weight: bold;
+    }
+    table td {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  .hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    height: 3px;
+  }
+  .imgWrap{
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.card {
+  width: 250px;
+  height: 150px;
+  background: #ddd;
+}
+.modalFooter {
+  padding: 50px 0;
+}
+
+.contant {
+  width: 1000px;
+  margin: 0 auto;
+  color: #999999;
+  .mainTxt {
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .mainTxtSubTwo {
+    color: #333;
+    font-size: 14px;
+    margin-right: 15px;
+    float:right;
+    span{
+      margin-left: 50px;
+    }
+  }
+  .mainTxtSub {
+    color: #999999;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .tempDiv {
+    width: 100%;
+    height: 300px;
+    background-color: #f8f8f8;
+  }
+}
+
+.tableBox {
+  padding: 0 10px;
+  margin-top: 40px;
+}
+
+.imgSmallTwo {
+  width: 82px;
+  height: 74px;
+}
+

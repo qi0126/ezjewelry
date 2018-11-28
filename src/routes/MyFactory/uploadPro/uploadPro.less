@@ -1,0 +1,365 @@
+.UploadPro {
+  padding: 40px 20px 40px 70px;
+  background: #fff;
+  font-size: 14px;
+  .backPage {
+    &:hover {
+      color: #D99C37;
+      cursor: pointer;
+    }
+  }
+  .seriesSelectDiv{
+    color:#333333;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 40px;
+    vertical-align:middle; 
+    img{
+      margin-left: 20px;
+      vertical-align:middle; 
+      margin-right: 12px;
+    }
+    .seriesSelect{
+      margin-left: 12px;
+      width: 386px;
+    }
+    .seriesSubTxt{
+      font-size:14px;
+      font-weight:400;
+      margin-left: 12px;
+    }
+  }
+  .tit {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    .titSubName {
+      color: #666;
+      font-size: 14px;
+      margin-left: 20px;
+    }
+    &::before {
+      content: " ";
+      position: absolute;
+      top: 48%;
+      left: -20px;
+      display: inline-block;
+      background: red;
+      width: 6px;
+      height: 6px;
+      border-radius: 6px;
+    }
+  }
+  .hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    height: 3px;
+  }
+  .imgUpload {
+    width: 100px;
+    height: 81px;
+    color: #c1d4e3;
+    text-align: center;
+    img{
+      width: 100px;
+      height: 81px;
+    }
+  }
+  .imgSmall {
+    width: 82px;
+    height: 74px;
+  }
+  .imgSmallTwo {
+    width: 82px;
+    height: 74px;
+  }
+  .imgDelBig {
+    position: relative;
+  }
+  .displayHide {
+    display: none;
+  }
+  .imgDel {
+    top: -15px;
+    background-color: #e5598a;
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: -16px;
+    padding: 2px 4px;
+    position: absolute;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .radioStyle {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+  }
+  .proContent {
+    line-height: 50px;
+    .inputOne {
+      width: 30px;
+      margin-right: 15px;
+    }
+  }
+  .input140 {
+    width: 140px;
+    margin-right: 30px;
+    text-align: right;
+  }
+  .margin10 {
+    margin: 10px 0;
+  }
+  .width60 {
+    width: 60px;
+  }
+  .textCenter {
+    text-align: center;
+  }
+  .textRight {
+    text-align: right;
+  }
+  .pro {
+    text-align: center;
+    background-color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px 10px 2px 10px;
+    .proDisplay {
+      .proName {
+        color: #666666;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0;
+      }
+      .proPrice {
+        color: #000000;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .datum {
+    display: flex;
+    .datumRow {
+      display: flex;
+      align-items: center;
+      height: 80px;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      .name {
+        flex: 1;
+        color: #666;
+      }
+      .value {
+        flex: 3;
+      }
+    }
+  }
+}
+.seriesDiv{
+  margin:40px 0 16px 20px; 
+  line-height: 30px;
+  width:461px;
+  .bottonDiv{
+    text-align: right;
+    padding:10px 0;
+  }
+}
+.seriesRedTxtOne {
+  color: #f6a3a3;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.seriesRedTxtTwo {
+  color: #ef5555;
+  font-size: 14px;
+  margin:40px 16px 0 0; 
+  font-weight: bold;
+}
+.txtRed{
+  color:#EF5555;
+  font-size:12px;
+  cursor: pointer;
+}
+.imgDelTwo {
+  background-color: #e5598a;
+  color: #fff;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 2px 4px;
+  margin-left: 10px;
+}
+.tabThree {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  margin: 20px 0 0 70px;
+  font-size: 14px;
+  table th {
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: bold;
+  }
+  table td {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+.titTop{
+  border-bottom: #ddd solid 1px;
+  padding-bottom:20px;
+  font-size:14px;
+  color:#333;
+}
+.titTopTwo{
+  padding-bottom:20px;
+  font-size:14px;
+  color:#333;
+}
+.forItemDiv{
+  margin: 30px 0 ;
+  width:695px;
+}
+label{
+  font-size: 14px;
+  font-weight: bold;
+}
+.delSkuTxt{
+  font-size: 14px;
+}
+.txtCenter{
+  text-align: center;
+}
+//弹出框样式
+.modalDiv {
+  .mainImg {
+    width: 480px;
+    border: 1px solid #b8d4fb;
+    margin: 30px;
+    margin-left: 0
+  }
+
+  .subImg {
+    width: 80px;
+    height: 80px;
+  }
+  .titTxt {
+    margin-top: 85px;
+    font-size: 14px;
+  }
+  .tabOne {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    margin: 20px 0;
+    font-size: 14px;
+    table th {
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+    table td {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .tabTwo {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 20px 0;
+    .leftTxt {
+      color: #333333;
+      font-size: 14px;
+      height: 46px;
+      font-weight: bold;
+    }
+    .rightTxt {
+      color: #666666;
+      font-size: 14px;
+      height: 46px;
+      .rightNumSpan {
+        margin-right: 20px;
+      }
+    }
+  }
+  .tabThree{
+    border-bottom: #999999 solid 1px;
+  }
+  .hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    height: 3px;
+  }
+}
+.card {
+  width: 250px;
+  height: 150px;
+  background: #ddd;
+}
+.modalFooter {
+  padding: 50px 0;
+}
+
+.contant {
+  width: 1000px;
+  margin: 0 auto;
+  color: #999999;
+  .mainTxt {
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    font-weight: bold;
+  }
+  .mainTxtSub {
+    color: #999999;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .tempDiv {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.rowClass {
+  text-align: center;
+}
+
+.flexAlign {
+  display: flex;
+  align-items: center;
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+.leftWrap {
+  // display: inline;
+  display: inline-flex;
+}
+
+.boxWrap {
+  // display: flex;
+  line-height: 120px;
+}

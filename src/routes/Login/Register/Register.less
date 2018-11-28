@@ -1,0 +1,131 @@
+.register {
+    background: #f8f8f8;
+    .wrap {
+        display: flex;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
+        height: 100vh;
+        .left {
+            margin-right: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 620px;
+            height: 100vh;
+            background: #fff;
+            .leftCont {
+                width: 370px;
+                .lTit {
+                    font-size: 20px;
+                    color: #000;
+                    margin-bottom: 80px;
+                }
+                .lRow {
+                    margin-top: 26px;
+                    > p {
+                        color: #333;
+                        margin-bottom: 6px; 
+                    }
+          
+                }
+                .password {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    font-size: 12px;
+                    > p {
+                        color: #1D94D2;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .lButton {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 70px; 
+                    > button {
+                        // background: #000;
+                        width: 100%;
+                    }
+                }
+                .noAccount {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 14px;
+                    font-size: 12px;
+                    p {
+                        > span {
+                            color: #1D94D2;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                }
+
+                .datumWrap {
+                    .tit {
+                        padding-bottom: 3px;
+                        margin-bottom: 10px;
+                        &::before {
+                            content: ' ';
+                            position: absolute;
+                            top: 38%;
+                            left: -20px;
+                            display: inline-block;
+                            background: red;
+                            width: 6px;
+                            height: 6px;
+                            border-radius: 6px;
+                        }
+                    }
+                    .datum {
+                        display: flex;
+                        .datumRow {
+                            display: flex;
+                            align-items: center;
+                            height: 80px;
+                            width: 100%;
+                            border-bottom: 1px solid #eee;
+                            .name {
+                                flex: 1;
+                                color: #666
+                            }
+                            .value {
+                                display: flex;
+                                flex: 4;
+                                .code {
+                                    margin-left: 30px;
+                                }
+                            }
+                        }
+                    } 
+                }
+
+                
+            }
+        }
+        .right {
+            width: 500px;
+            .wrapBox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .wbottom {
+                transform: scale(.8, .8);
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 100px;
+            }
+        }
+    }
+
+  
+
+}

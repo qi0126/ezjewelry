@@ -1,0 +1,93 @@
+.itemTable {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    .itemPayTr{
+        flex: 0 1 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 94px;
+        border-top: 1px solid #e8e8e8;
+        border-left: 1px solid #e8e8e8;
+    }
+    .modeWrap{
+        flex: 1;
+        display: flex;
+        .itemTd {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 94px;
+            // border-top: 1px solid #e8e8e8;
+            border-left: 1px solid #e8e8e8;
+            &:nth-of-type(1) {
+                border-left: none;
+                justify-content: flex-start;
+                padding-left: 24px;
+                box-sizing: border-box
+            }
+        }
+        .imgTd{
+            flex: 0 1 auto;
+            padding-left: 24px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #e8e8e8;
+            .img {
+                display: block;
+                // margin-right: 20px;
+                width: 80px;
+                height: 80px;   
+                background: #eee 
+            }
+        }
+        .secondWrap{
+            border-top: 1px solid #e8e8e8;
+            .itemTd {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 94px;
+                // border-top: 1px solid red;
+                // border-left: 1px solid red;
+                &:nth-of-type(1) {
+                    border-left: none;
+                    justify-content: flex-start;
+                    padding-left: 24px;
+                    box-sizing: border-box
+                }
+            }
+            .noBoder{
+                border-top: none;
+            }
+        }
+        .thirdWrap{
+            .itemTd {
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                min-height: 94px;
+                border-left: 1px solid #e8e8e8;
+            }
+        }
+
+    }
+    &:last-child {
+        border-bottom:none;
+    }
+    .designWrap{
+        width: 107px;
+        text-align: center;
+        .designCont{
+            color: #B79044;
+            font-size: 13px;
+            padding-left: 10px;
+            padding-right: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}

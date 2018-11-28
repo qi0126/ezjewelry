@@ -1,0 +1,86 @@
+.login {
+    background: #f8f8f8;
+    .wrap {
+        display: flex;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
+        height: 100vh;
+        .left {
+            margin-right: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 620px;
+            height: 100vh;
+            background: #fff;
+            .leftCont {
+                .lTit {
+                    font-size: 20px;
+                    color: #000;
+                    margin-bottom: 80px;
+                }
+                .lRow {
+                    margin-top: 26px;
+                    > p {
+                        color: #333;
+                        margin-bottom: 6px; 
+                    }
+          
+                }
+                .password {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    font-size: 12px;
+                    > p {
+                        color: #1D94D2;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .lButton {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 70px; 
+                    > button {
+                        // background: #000;
+                        width: 100%;
+                    }
+                }
+                .noAccount {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 14px;
+                    font-size: 12px;
+                    p {
+                        > span {
+                            color: #1D94D2;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        .right {
+            width: 500px;
+            .wrapBox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .wbottom {
+                transform: scale(.8, .8);
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 100px;
+            }
+        }
+    }
+}

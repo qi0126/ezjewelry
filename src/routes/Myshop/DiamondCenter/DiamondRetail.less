@@ -1,0 +1,186 @@
+#diamondWrap {
+    padding: 40px 20px 165px 80px;
+    background: #fff;
+    .titleWrap{
+        display: flex;
+        border-bottom: 1px solid #B1B1B1;
+        padding-bottom: 15px;
+        &>div{
+            flex: 1;
+        }
+        .pricTitle{
+            color: #333333;
+            font-size: 16px;
+            position: relative;
+            padding-left: 20px;
+            &::before {
+                content: ' ';
+                position: absolute;
+                top: 38%;
+                left: 0px;
+                display: inline-block;
+                background: red;
+                width: 6px;
+                height: 6px;
+                border-radius: 6px;
+            }
+        }
+    }
+    .topContent{
+        margin-top: 42px;
+        .leftWrap{
+            display: flex;
+            margin-bottom: 46px;
+            .leftTitle{
+                line-height: 36px;
+                width: 52px;
+                margin-right: 10px;
+                font-size: 14px;
+                color: #1A1A1A;
+            }
+        }
+        .outerWrap{
+            width: 358px;
+        }
+    }
+
+    .btnWrap{
+        margin-top: 60px;
+        font-size: 12px;
+        .leftBtnWrap{
+            text-align: right;
+            .btnL{
+                display: inline-block;
+                width:94px;
+                height: 28px;
+                background-color: #BA9D66;
+                color: #FFFFFF;
+                text-align: center;
+                line-height: 28px;
+                margin-right: 30px;
+                border-radius: 5px;
+            }
+        }
+        .rightBtnWrap{
+            text-align: left;
+            .btnR{
+                display: inline-block;
+                color: #BA9D66;
+                width:94px;
+                height: 28px;
+                border: 1px solid #BA9D66;
+                margin-right: 30px;
+                text-align: center;
+                line-height: 28px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .tableTitle{
+        margin-top: 41px;
+        .leftTitle{
+            font-size: 14px;
+            color: #333333;
+            span{
+                color: #BA9D66;
+            }
+        }
+        .rightTitle{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .numTitle{
+                color: #999999;
+                font-size: 14px;
+                margin-right: 10px;
+            }
+            Button{
+                margin-right: 10px;
+            }
+        }
+    }
+    .tabelWrap{
+        margin-top: 21px;
+        .thead{
+            height: 63px;
+            background-color: #444444;
+            font-size: 14px;
+            color: #FFFFFF;
+            .tr{
+                display: flex;
+                height: 63px;
+                // justify-content: center;
+                align-items: center;
+                .td{
+                    flex: 1;
+                    text-align: center;
+                    position: relative;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: 6px;
+                        right: 0;
+                        border-right: 1px solid #ffffff;
+                        height: 10px;
+                    }
+                    &:last-child{
+                        &::before{
+                            content: '';
+                            height: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .tbody{
+            padding-top: 12px;
+            border: 1px solid #E6E6E6;
+            // max-height: 484px;
+            // overflow-y: scroll;
+            .tr{
+                display: flex;
+                height: 47px;
+                // align-items: center;
+                border-bottom: 1px solid #E6E6E6;
+                .td{
+                    flex: 1;
+                    text-align: center;
+                    height: 47px;
+                    border-right: 1px solid #E6E6E6;
+                    line-height: 47px;
+                    &:last-child{
+                        border-right: 0px solid #E6E6E6;
+                    }
+                    Input{
+                        text-align: center;
+                        border: 0px;
+                        border-bottom: 1px solid red;
+                        border-radius: 0;
+                        color: red;
+                    }
+                    .InputFirst{
+                        width: 37px;
+                    }
+                    .InputSecond{
+                        width: 60px
+                    }
+                }
+                &:last-child{
+                    border-bottom: 0 solid #E6E6E6;
+                }
+            }
+        }
+    }
+    .pagWrap{
+        float: right;
+    }
+
+}
+
+
+
+
+
+
+

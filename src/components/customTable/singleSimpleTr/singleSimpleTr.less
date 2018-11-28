@@ -1,0 +1,63 @@
+
+.itemTable {
+            width: 100%;
+            border-bottom: 1px solid #e5e5e5;
+            display: flex;
+            .itemTr {
+                flex: 1;
+                .leftTd{
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                }
+                .itemTd {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 94px;
+                    // border-top: 1px solid #e8e8e8;
+                    border-left: 1px solid #e8e8e8;
+                    height: 100%;
+                    
+                    .img {
+                        display: block;
+                        margin-right: 20px;
+                        width: 80px;
+                        height: 80px;   
+                        background: #eee 
+                    }
+                &:nth-of-type(1) {
+                    border-left: none;
+                    justify-content: flex-start;
+                    padding-left: 24px;
+                    box-sizing: border-box
+                    }
+                }
+            }
+            .itemPayTr{
+                flex: 0 1 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                min-height: 94px;
+                border-top: 1px solid #e8e8e8;
+                border-left: 1px solid #e8e8e8;
+            }
+            &:last-child {
+                border-bottom:none;
+            }
+            .designWrap{
+                width: 107px;
+                text-align: center;
+                .designCont{
+                    color: #B79044;
+                    font-size: 13px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+}

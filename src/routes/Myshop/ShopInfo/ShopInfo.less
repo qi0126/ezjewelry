@@ -1,0 +1,356 @@
+.shopInfo {
+    padding: 40px 20px 165px 80px;
+    background: #fff;
+    .sAudit {
+        .top {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            // margin-bottom: 35px;
+            border-bottom: 1px solid #eee;
+            .tit {
+                padding-bottom: 3px;
+                &::before {
+                    content: ' ';
+                    position: absolute;
+                    top: 38%;
+                    left: -20px;
+                    display: inline-block;
+                    background: red;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 6px;
+                }
+                > span {
+                    font-size: 14px;
+                    color: #999;
+                    margin-left: 24px;
+                }
+          
+            }
+            .right {
+                
+            }
+        }
+
+    }
+
+    .content {
+        display: flex;
+        .left {
+            background: #272727;
+            position: relative;
+       
+            .lBanner {
+                position: absolute;
+                top: 175px;
+                left: 0;
+            }
+            .cLeft {
+                padding-bottom: 30px; 
+                width: 500px;
+                text-align: center;
+                color: #fff;
+                background: url('../../../../public/images/img-shopone.png') no-repeat ;
+                .lPack {
+                    position: absolute;
+                    top: 344px;
+                    left: 0;
+                    z-index: 1;
+                }
+                .clEZJ {
+                    position: relative;
+                    z-index: 2;
+                }
+                .shopNameInfo {
+                    font-size: 20px;
+                    padding-top: 376px;
+                    opacity: .9;
+                     input {
+                        text-align: center;
+                        color: #fff;
+                        font-size: 20px;
+                        background: transparent;
+                        border: none;
+                        letter-spacing: 4px;
+                    }
+                }
+                .advertiseInfo {
+                    font-size: 24px;
+                    margin-top: 4px;
+                     input {
+                        text-align: center;
+                        color: #fff;
+                        font-size: 24px;
+                        background: transparent;
+                        border: none;
+                        letter-spacing: 4px;
+                    }
+                }
+                .remarkInfo {
+                    margin-top: 430px;
+                    .rName {
+                        font-size: 18px;
+                        letter-spacing: 6px;
+                    }
+                    .rInfo {
+                        text-indent: 20px;
+                        margin-top: 60px;
+                        display: block; 
+                        textarea {
+                            padding: 20px;
+                            font-size: 14px;
+                            text-indent: 24px;
+                            color: #fff;
+                        }
+                    }
+                }
+                .recommendInfo {
+                    margin: 0 auto;
+                    width: 90%;
+                    border: 1px solid #2FADE2;
+                    border-radius: 5px;
+                    margin-top: 210px;
+                    margin-bottom: 20px;
+                    padding: 24px 20px 30px;
+                    text-align: left;
+                    .reImg {
+                        position: relative;
+                        overflow: hidden;
+                        height: 278px;
+                        border: 1px solid #f1f1f1;
+                        & > img {
+                            width: 100%;
+                        }
+                        .reImgExample {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            font-size: 20px;
+                            font-weight: 500;
+                            letter-spacing: 6px;
+                            background: rgba(100, 100, 100, .8)
+                        }
+                    }
+                    .reTit {
+                        margin-top: 10px;
+                        font-size:20px;
+                    }
+                    .reExtend {
+                        font-size: 16px;
+                        color:  #777777;
+                        font-weight: 400;
+                        margin-top: 14px;
+                        margin-bottom: 29px;
+                        > span {
+                            margin: 0 4px;
+                        }
+                    }
+                    .reBtn {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #C09E57;
+                        width: 145px;
+                        height: 52px;
+                        border-radius: 8px;
+                        color: #C09E57;
+                        font-weight: 500;
+                        font-size: 17px;
+                    }
+                }
+
+                .noRecomm {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    width: 90%;
+                    height: 600px;
+                    border: 1px solid #2FADE2;
+                    border-radius: 5px;
+                    > span {
+                        font-size: 20px;
+                        margin: 0 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 100%;
+            position: relative;
+            margin-left: 105px;
+            padding-top: 378px;
+            .shopName {
+                // position: relative;
+                &::before {
+                    left: -258px;
+                    width: 238px
+                }
+            }
+            .advertise {
+                margin-top: 30px;
+                &::before {
+                    left: -178px;
+                    width: 158px
+                }
+                .adsmall {
+                    display: block;
+                    font-size: 14px;
+                }
+            }
+            .banner {
+                width: 200px;
+                margin-top: 240px;
+                &::before {
+                    left: -278px;
+                    width: 258px
+                }
+                button {
+                    margin: 10px 0;
+                }
+                .basmall {
+                    display: block;
+                    font-size: 14px;
+                    color: #999999;
+                }
+                input[type='file'] {
+                    display: none
+                }
+            }
+            .remark {
+                &::before {
+                    left: -114px;
+                    width: 94px
+                }
+                margin-top: 660px;
+            }
+            .recommend {
+                &::before {
+                    left: -278px;
+                    width: 258px
+                }
+                margin-top: 1074px;
+                .recTop {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color:#2FADE2;
+                } 
+                .recInfo {
+                    margin-top: 20px;
+                    display: block;
+                    > span {
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+        .hrLeft {
+            position: absolute;
+        }
+        .hrLeft::before {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 1px;
+            width: 500px;
+            top: 50%;
+            left: -520px;
+            background: #F24C4C;
+        }
+        .ft18 {
+            color: #666;
+            font-size: 16px;
+        }
+    }
+
+    // common
+    .tit {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .bottom {
+        margin-top: 52px;
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+            margin-right: 60px;
+            display: flex;
+            align-items: center;
+            margin-right: 80px;
+            .cancal  {
+                color: red;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .hr {
+        margin-top: 30px;
+        height: 1px;
+        width: 100%;
+        background: #eee;
+    }
+
+    // 换图片按钮
+    .customBtn {
+        text-align: center;
+        width: 86px;
+        line-height: 32px;
+        border-radius: 4px;
+        color: #fff;
+        background: #ba9d66   
+    }
+
+    .customBtn:active {
+        opacity: .9;
+    }
+
+    .customBtn:hover {
+        cursor: pointer;
+    }
+
+    // 单行
+    .oneList {
+        display: flex;
+        justify-content: flex-start;
+        padding: 16px 0;
+        border-bottom: 1px solid #eee;
+        font-size: 14px;
+        .oLeft {
+            flex: 2;
+            // color: #999;
+        }
+        .oRight {
+            display: flex;
+            align-items: center;
+            flex: 10;
+            color: #666;
+            > img {
+                display: block;
+                width: 86px;
+                height: 86px;
+                background: #eee;
+            }
+            .orRight {
+                p:nth-of-type(1) {
+                    margin-bottom: 6px;
+                    color: #000;
+                    font-size: 16px;
+                }
+                p:nth-of-type(2) {
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

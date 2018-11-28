@@ -1,0 +1,113 @@
+#diamondWrap {
+    padding: 40px 20px 165px 80px;
+    background: #fff;
+    .titleWrap{
+        display: flex;
+        border-bottom: 1px solid #B1B1B1;
+        padding-bottom: 15px;
+        &>div{
+            flex: 1;
+        }
+        .pricTitle{
+            color: #333333;
+            font-size: 16px;
+            position: relative;
+            padding-left: 20px;
+            &::before {
+                content: ' ';
+                position: absolute;
+                top: 38%;
+                left: 0px;
+                display: inline-block;
+                background: red;
+                width: 6px;
+                height: 6px;
+                border-radius: 6px;
+            }
+        }
+        .btn {
+            color: #fff;
+            width: 94px;
+            height: 28px;
+            background: #C4A56A;
+            text-align: center;
+            line-height: 28px;
+            border-radius: 5px;
+        }
+    }
+    .tabel{
+        margin-top: 41px;
+        .trWrap{
+            display: flex;
+            margin-bottom: 25px;
+            color: #333333;
+            font-size: 14px;
+            font-weight: bold;
+            .thWrapA{
+                flex: 2;
+                // background-color: #B1B1B1;
+                display: flex;
+                div{
+                    width: 98px;
+                    text-align: center;
+                }
+            }
+            .thWrapB{
+                flex: 2;
+                text-align: center;
+                margin-left: 15px;
+            }
+            .thWrapC{
+                flex: 4;
+                // background-color: #B1B1B1;
+            }
+        }
+        .tr{
+            display: flex;
+            margin-bottom: 21px;
+            Input{
+                width: 98px;
+                text-align: center;
+            }
+            .tip{
+                margin: 0 13px;
+            }
+            .tdA{
+                flex: 2;
+                display: flex;
+            }
+            .tdB{
+                flex: 2;
+                text-align: center;
+            }
+            .tdC{
+                flex: 4;
+                display: flex;
+                align-items: center;
+                .btn{
+                    width: 94px;
+                    height: 28px;
+                    border: 1px solid #BA9D66;
+                    text-align: center;
+                    line-height: 28px;
+                    color: #BA9D66;
+                    display: inline-block;
+                    border-radius: 5px;
+                }
+                .delIcon{
+                    width: 17px;
+                    height: 19px;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+   
+}
+
+
+
+
+
+
+

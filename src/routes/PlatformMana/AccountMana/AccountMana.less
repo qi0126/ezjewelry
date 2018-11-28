@@ -1,0 +1,110 @@
+.accountMana {
+    padding: 40px 20px 165px 80px;
+    background: #fff;
+    .sAudit {
+        .top {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+            border-bottom: 1px solid #eee;
+            .tit {
+                padding-bottom: 3px;
+                &::before {
+                    content: ' ';
+                    position: absolute;
+                    top: 38%;
+                    left: -20px;
+                    display: inline-block;
+                    background: red;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 6px;
+                }
+            }
+            .right {
+                
+            }
+        }
+
+    }
+
+    // common
+    .tit {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold
+    }
+
+    .searchBox {
+        display: flex;
+        .left {
+            box-sizing: border-box;
+            padding: 0 10px;
+            width: 234px;
+            height: 33px;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            margin-left: 20px;
+            width: 70px;
+            height: 33px;
+            background: #C4A56A;
+            border-radius: 5px;
+        }
+    }
+
+    .tableWrap {
+        .paginaNumWrap {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            > span {
+                color: #999
+            }
+            .paginaNum {
+                display: flex;
+                > p {
+                    margin-left: 14px;
+                    padding: 2px 4px;
+                    border: 1px solid #C4A56A;
+                    &.on {
+                        color: #fff;
+                        background: #C4A56A;
+                    }
+                }
+            }
+        }
+        .table {
+            .row {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    .rowClass {
+        text-align: center;
+    }
+
+    .footer {
+        height: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+
+
+
+
+
+
+
+
